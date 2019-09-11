@@ -1,0 +1,11 @@
+"use strict";
+var rlSync = require('readline-sync');
+var str1 = rlSync.question('Whats your name!?!?!');
+var a = rlSync.questionInt("Number 1: ");
+var b = rlSync.questionInt("Number 2: ");
+console.log("Welcome: " + str1);
+console.log("Addition: ", a + b);
+console.log("Subtraction: ", a - b);
+console.log("Multiplication: ", a * b);
+console.log("Division: ", a / b);
+console.log("Remainder: ", a % b);
